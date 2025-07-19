@@ -8,17 +8,17 @@ print("2. Subtraction (-)")
 print("3. Multiplication (X)")
 print("4. Division (/)")
 
-c = input("Enter you'r choice (1/2/3/4): ")
+c = int(input("Enter you'r choice (1/2/3/4): "))
 print()
 b = float(input("Enter second number: "))
 
-if (c == "1"):
+if (c == 1):
     print("The sum of two number is: ", a + b)
-elif (c == "2"):
+elif (c == 2):
     print("The subtraction of two number is: ", a - b)
-elif (c == "3"):
+elif (c == 3):
     print("The multiplication of two number is: ", a * b)
-elif (c == "4"):
+elif (c == 4):
     if (b != 0):
         print("The divison of two number is: ", a / b)
     else:
