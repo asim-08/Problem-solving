@@ -1,6 +1,6 @@
 # Calculating the simple intrest.
 
-rs = 50000
+rs = int(input("Enter a amount : "))
 In = 5   # per year
 return_rs = 3          # in 3 year
-print(f"The toatal amount you will return with intrest is {(rs*In*return_rs)/100+50000}")
+print(f"The toatal amount you will return with intrest is {(rs*In*return_rs)/100 + rs}")
