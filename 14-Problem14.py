@@ -1,6 +1,6 @@
 # Repeating string.
 
 s = "My name is Asim\n"
-a = 3
-b = s * a
+n = int(input("Enter a number : "))
+b = s * n
 print(b)
