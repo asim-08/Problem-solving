@@ -2,7 +2,7 @@
 
 try:
     student_marks = int(input("Enter a student marks : "))
-    if student_marks > 100:
+    if student_marks > 100 or student_marks < 0:
         print("Enter marks in range of 0 to 100")
     elif student_marks >= 90 and student_marks <= 100:
         print("Grade A+")
